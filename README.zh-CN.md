@@ -8,7 +8,7 @@
 
 用户会改主意，有些要求只对当前会话有效，也可能要求撤销之前的偏好。OpenIntuition 把这些变化写成明确的事件序列，运行不同记忆策略，再告诉你：它们在哪里答对了，在哪里还在使用不适用的旧设置。
 
-[打开浏览器演示](https://taobuilds.github.io/OpenIntuition/) · [English](README.md) · [中文上手教程](docs/GETTING_STARTED.zh-CN.md) · [示例结果报告](docs/example_results.md) · [事件规则](docs/policy_spec.md) · [参与开发](CONTRIBUTING.md)
+[打开浏览器演示](https://sstmade.github.io/OpenIntuition/) · [English](README.md) · [中文上手教程](docs/GETTING_STARTED.zh-CN.md) · [示例结果报告](docs/example_results.md) · [事件规则](docs/policy_spec.md) · [参与开发](CONTRIBUTING.md)
 
 **当前版本：** `0.2.0` · Python 3.12 · MIT 开源 · 无运行时依赖 · 不需要 API key
 
@@ -28,7 +28,7 @@
 
 OpenIntuition 从这些小而具体的问题开始，让错误可以被复现、定位和讨论。
 
-[直接打开浏览器演示](https://taobuilds.github.io/OpenIntuition/)，不需要安装。演示是 Python 程序生成的只读报告，展示已运行的结果，不会在网页上调用模型或接收新的数据。
+[直接打开浏览器演示](https://sstmade.github.io/OpenIntuition/)，不需要安装。演示是 Python 程序生成的只读报告，展示已运行的结果，不会在网页上调用模型或接收新的数据。
 
 ![浏览器报告：临时偏好影响其他会话的错误](assets/report-preview.png)
 
@@ -48,7 +48,7 @@ OpenIntuition 从这些小而具体的问题开始，让错误可以被复现、
 请使用 **Python 3.12**；当前支持范围是 `>=3.12,<3.13`。先用 `python3 --version` 确认版本。以下命令适用于 macOS 或 Linux。
 
 ```bash
-git clone https://github.com/taobuilds/OpenIntuition.git
+git clone https://github.com/sstmade/OpenIntuition.git
 cd OpenIntuition
 
 python3 -m venv .venv

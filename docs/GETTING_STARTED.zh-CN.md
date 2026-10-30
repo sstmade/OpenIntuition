@@ -27,7 +27,7 @@ source .venv/bin/activate
 如果你第一次下载这个项目，请使用 Python 3.12：
 
 ```bash
-git clone https://github.com/taobuilds/OpenIntuition.git
+git clone https://github.com/sstmade/OpenIntuition.git
 cd OpenIntuition
 python3 -m venv .venv
 source .venv/bin/activate
